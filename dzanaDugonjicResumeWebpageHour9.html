@@ -1,0 +1,157 @@
+<!--During ninth hour I changed few things in text. I tried different borders for photo, 
+    and chose what I like the most. I inserted few google fonts,and when I found the one I like,
+    I used it on my page. I was also changing background, but eventualy stick with the same, but just
+    different transparency. I wanted to go back to the beginning of the page, 
+    so I decided to put a fixed text that is a link to the beginning of my page.
+-->
+<!DOCTYPE html>
+<html>
+<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet" type="text/css">
+
+<head>
+    <meta charset="utf-8">
+    <title>Dzana Dugonjic Resume</title>
+    <style>
+        body {
+            background-image: url('https://i0.wp.com/magtemplates.com/wp-content/uploads/2017/06/Binary-Code-Abstract-Wallpaper.jpg');
+            background-size: cover;
+        }
+
+        .info {
+            background-color: rgba(255, 255, 255, 0.8);
+            width: auto;
+            padding: 20px;
+        }
+
+        p,
+        ul {
+            font-size: 20px;
+            font-family: Cormorant Garamond;
+        }
+
+        @media (max-width: 480px) {
+
+            p,
+            ul {
+                font-size: 20px;
+            }
+
+        }
+
+        #page-content {
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        a {
+            color: green;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: red;
+        }
+
+        img {
+            border-radius: 50%;
+        }
+
+        h1,
+        h2 {
+            font-family: Cormorant Garamond;
+
+        }
+
+        #back {
+            display: flex;
+            justify-content: flex-end;
+            position: fixed;
+            width: 90%;
+            font-family: Cormorant Garamond;
+            font-size: large;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="info">
+        <h1 style="color: white;" id="dzana">Dzana Dugonjic</h1>
+        <div id="page-content">
+            <h2>Page Content</h2>
+            <ul>
+                <li><a href="#contact"><b>Contact</b></a></li>
+                <li><a href="#education"><b>Education</b></a></li>
+                <li><a href="#skills"><b>Skills</b></a></li>
+                <li><a href="#languages"><b>Languages</b></a></li>
+                <li><a href="#aboutme"><b>About Me</b></a></li>
+            </ul>
+        </div>
+        <div id="back" style="float: right;"><a href="#dzana"><b>Back to the Top</b></a></div>
+        <img src="https://imgur.com/Bcag5A1.jpg" alt="Dzana Dugonjic" width="20%" height="auto">
+
+        <h2 style="color: white;" id="contact">Contact</h2>
+        <ul>
+            <li>Puracic, Lukavac</li>
+            <li>Bosnia and Herzegovina</li>
+            <li>+38762718435</li>
+            <li>dzana.du90njic@gmail.com</li>
+        </ul>
+
+        <h2 style="color: white;" id="education">Education</h2>
+        <p>Currently, a student at Faculty of Electrical Engineering, Telecommunications Engineering.</p>
+        <h2 style="color: white;" id="skills">Skills</h2>
+        <ul>
+            <li>Teamwork</li>
+            <br>
+            <li>Flexibility</li>
+            <br>
+            <li>Multitasking</li>
+            <br>
+            <li>Problem-Solving</li>
+        </ul>
+        <h2 style="color: white;" id="languages">Languages</h2>
+        <ul>
+            <li>Bosnian</li>
+            <br>
+            <li>English</li>
+        </ul>
+        <h2 style="color: white;" id="aboutme">About Me</h2>
+        <div style="padding-right: 30%; width: 70%;">
+            <p>I am a student at Faculty of Electrical Engineering that is interested in learning new skills. Without
+                previous work
+                experience but eager to learn, improve myself and to implement that knowledge into future projects. </p>
+            <wbr>
+            <p>I am a reliable, hardworking person who love to learn new things and to expand my knowledge, so I could
+                be
+                better
+                at completing different tasks.</p>
+            <wbr>
+            <p>I easily adapt to different conditions, so teamwork or work by myself is both acceptable for me. </p>
+            <wbr>
+            <p>I strive for perfection, so you would never be disappointed by my work and focus.</p>
+            <wbr>
+            <p>I appreciate everyone's opinion and try to help as much as I could, so I would be excellent for teamwork.
+            </p>
+            <wbr>
+            <p>I can easily multitask, so if necessary I could work by myself. I would strive to achieve the best
+                results.
+            </p>
+            <wbr>
+            <p> I would never disappoint, and I would always manage to finish every task on time.</p>
+            <wbr>
+            <p>At the end of January, 2022, I started with BILD-IT bootcamp, and there I am learning about HTML/CSS.
+                <br> You can find more about BILD-IT <a href="https://mozemo.ba/" target="_blank"><b>here</b>.</a>
+                You can also visit their <a href="https://www.facebook.com/openbosna/" target="_blank"><b>Facebook
+                        page</b></a>.
+            </p>
+            <wbr>
+            <p>During BILD-IT bootcamp I started doing challenges on <a href="https://www.freecodecamp.org/learn/"
+                    target="_blank"><b>Free Code Camp</b></a>.
+                You can check my Free Code Camp profile <a href="https://www.freecodecamp.org/dzana_dugonjic"
+                    target="_blank"><b>here</b></a>.</p>
+        </div>
+    </div>
+</body>
+
+</html>
